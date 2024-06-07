@@ -10,7 +10,6 @@ from PIL import Image
 
 #st.set_page_config(layout="wide")
 st.set_page_config(page_title='Kronos2.0',page_icon = 'favicon.ico',layout = 'wide')
-st.set_option('deprecation.showPyplotGlobalUse', False)
 head = """<script async defer data-website-id="f7b646ab-c9b9-4995-bd4c-14e1b9590000" src="https://umami.mukul-mehta.in/umami.js"></script>"""
 components.html(head, height=0)
 
