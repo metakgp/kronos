@@ -22,7 +22,7 @@ python -m venv env
 
 ### Activate the virtual environment 
 ```shell
-env\Scripts\activate
+source env/bin/activate
 ```
 
 ### Install Dependencies 

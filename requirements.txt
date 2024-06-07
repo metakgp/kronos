@@ -1,8 +1,8 @@
-matplotlib==3.3.3
-pandas==1.1.5
-pipreqs==0.4.10
-plotly==4.14.1
-scipy==1.5.4
-seaborn==0.11.0
-streamlit==1.1.0
+matplotlib==3.9.0
+pandas==2.2.2
+pipreqs==0.5.0
+plotly==5.22.0
+scipy==1.13.1
+seaborn==0.13.2
+streamlit==1.35.0
 
