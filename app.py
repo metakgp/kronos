@@ -14,11 +14,11 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 head = """<script async defer data-website-id="f7b646ab-c9b9-4995-bd4c-14e1b9590000" src="https://umami.mukul-mehta.in/umami.js"></script>"""
 components.html(head, height=0)
 
-@st.cache(allow_output_mutation=True)
+@st.cache_resource
 def get_data():
     return pd.read_csv(r'data/final_grades.csv')
 
-@st.cache
+@st.cache_data
 def get_json():
     f = open(r'data/data_file.json')
     data = json.load(f)
