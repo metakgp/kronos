@@ -134,7 +134,7 @@ st.write("")
 st.write("")
 abc = df_num.transpose()
 colNames = []
-for (columnName, columnData) in abc.iteritems():
+for (columnName, columnData) in abc.items():
     colNames.append(columnName)
     abc[columnName] = (abc[columnName] / abc[columnName].sum()) * 100
 
