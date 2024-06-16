@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 from PIL import Image
 
 #st.set_page_config(layout="wide")
-st.set_page_config(page_title='Kronos2.0',page_icon = 'favicon.ico',layout = 'wide')
+st.set_page_config(page_title='Kronos',page_icon = 'favicon.ico',layout = 'wide')
 head = """<script async defer data-website-id="f7b646ab-c9b9-4995-bd4c-14e1b9590000" src="https://umami.mukul-mehta.in/umami.js"></script>"""
 components.html(head, height=0)
 
@@ -26,7 +26,7 @@ def get_json():
 
 df = get_data()
 st.markdown("<h1 style='text-align: center;'><b>Kronos - The Gradekeeper</b></h1>", unsafe_allow_html=True)
-#st.title("Kronos v2.0 - The Gradekeeper")
+#st.title("Kronos - The Gradekeeper")
 
 st.write("")
 
@@ -203,8 +203,8 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p style='text-align: center;font-size: 110%;'>Contribute to this project on <a href="http://github.com/spookbite/kronos2.0" target="_blank"> Github</a> | Developed by <a href="https://metakgp.github.io/" target="_blank"> MetaKGP</a> with ♥ </p>
+<p style='text-align: center;font-size: 110%;'>Contribute to this project on <a href="http://github.com/metakgp/kronos" target="_blank"> Github</a> | Developed by <a href="https://metakgp.github.io/" target="_blank"> MetaKGP</a> with ♥ </p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
-#st.markdown("<h4 style='text-align: center;'><b><i>Contribute to this project on <a href = 'http://github.com/spookbite/kronos2.0'>Github</a></i></b></h4>", unsafe_allow_html=True)
+#st.markdown("<h4 style='text-align: center;'><b><i>Contribute to this project on <a href = 'http://github.com/metakgp/kronos'>Github</a></i></b></h4>", unsafe_allow_html=True)
