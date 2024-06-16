@@ -25,7 +25,7 @@ def get_json():
     return data
 
 df = get_data()
-st.markdown("<h1 style='text-align: center;'><b>Kronos v2.0 - The Gradekeeper</b></h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'><b>Kronos - The Gradekeeper</b></h1>", unsafe_allow_html=True)
 #st.title("Kronos v2.0 - The Gradekeeper")
 
 st.write("")
