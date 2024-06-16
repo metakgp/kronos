@@ -16,8 +16,8 @@
   <a href="https://github.com/metakgp/kronos">
            <img width="140" alt="image" src="https://raw.githubusercontent.com/metakgp/design/main/logos/logo.jpg">
   </a> 
-<h1 align="center">kronos</h1>
-  <i>Previous years' grade distributions</i>
+<h1 align="center">Kronos</h1>
+  <i>Previous year course wise grade statistics</i>
   <br />
     <a href="https://github.com/metakgp/kronos/issues">Report Bug</a>
     ·
@@ -30,9 +30,8 @@
 
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
+  - [Using Docker](#using-docker)
   - [Without Docker](#without-docker)
-  - [using docker](#using-docker)
-- [Usage](#usage)
 - [Contact](#contact)
   - [Maintainer(s)](#maintainers)
   - [Creator(s)](#creators)
@@ -46,68 +45,45 @@
 
 This webapp displays previous year's grade distribution. It has been hosted with streamlit as an app but is still under development.
 
-
-You can find the container image [here](https://hub.docker.com/repository/docker/spookbite/kronosv2).
+You can find the container image [here on dockerhub](https://hub.docker.com/r/metakgporg/kronos).
 
 ## Getting started
 
-### Without docker
-
-
- 1. Install virtual environment module
-```shell
-    pip install virtualenv
-```
-
- 2. Create a virtual environment (say env) 
-```shell
-    python -m venv env
-```
-
- 3. Activate the virtual environment 
-  ```shell
-      source env/bin/activate
-  ```
-
- 4. Install Dependencies 
-  ```shell
-      pip install -r requirements.txt
-  ```
-
- 5. Run the following code on your terminal:
-  ```shell
-      streamlit run app.py
-  ```
+To set up a local instance of the application, follow the steps below.
 
 ### Using docker
 
  1. Pull the Docker image
-```shell
-    docker pull spookbite/kronosv2:latest
-```
+    ```shell
+    docker pull metakgporg/kronos:latest
+    ```
 
 2. Run the container
-```shell
-    docker run -p 8501:8501 spookbite/kronosv2
-```
+   ```shell
+    docker run -p 8501:8501 metakgporg/kronos
+   ```
 
-You can change the {PORT}:8501 to your desired PORT.
+### Without docker
 
-## Usage
-<!-- UPDATE -->
-Following is an example how this project works with streamlit.
+1. Configure the virtual environment
+   ```shell
+   pip install virtualenv
+   virtualenv venv
+   source venv/bin/activate
+   ```
 
-<div align="center">
-  <a href="https://github.com/metakgp/kronos">
-    <img width="90%" alt="image" src="https://github.com/Ananya-m0140/Git_KOSS/assets/153496011/37b7a1cf-0956-4545-9f31-6c45cc08b978">
-    </a>
-  <a href="https://github.com/metakgp/kronos">
-    <img width="90%" alt="image" src="https://github.com/Ananya-m0140/Git_KOSS/assets/153496011/f08c7a0a-1fd3-4c11-ab13-92bc120fea7f">
+2. Install Dependencies 
+   ```shell
+   pip install -r requirements.txt
+   ```
 
-  </a>
-</div>
+3. Start the app
+   ```shell
+   streamlit run app.py
+   ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+> [!Note]
+> You can change the `{PORT}:8501` to your desired PORT.
 
 ## Contact
 
@@ -133,16 +109,16 @@ Following is an example how this project works with streamlit.
 </a>
 </p>
 
-
 ### Maintainer(s)
+
 The currently active maintainer(s) of this project.
+
 - [Arpit Bhardwaj](https://github.com/proffapt)
 
 ### Creator(s)
 
 Honoring the original creator(s) and ideator(s) of this project.
 
-<!-- UPDATE -->
 - [Palkit Lohia](https://github.com/spookbite)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -155,8 +131,6 @@ Honoring the original creator(s) and ideator(s) of this project.
   - [Contribution Guidelines](/.github/CONTRIBUTING.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -172,4 +146,3 @@ Honoring the original creator(s) and ideator(s) of this project.
 [license-url]: https://github.com/metakgp/kronos/blob/main/LICENSE
 [wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&style=for-the-badge
 [wiki-url]: https://wiki.metakgp.org
-
