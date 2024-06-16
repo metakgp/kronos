@@ -46,13 +46,12 @@
 
 This webapp displays previous year's grade distribution. It has been hosted with streamlit as an app but is still under development.
 
-You can go [here](https://kronos.streamlit.app/) for the live version of the project. Make your choices wisely :)
 
 You can find the container image [here](https://hub.docker.com/repository/docker/spookbite/kronosv2).
 
-# Getting started
+## Getting started
 
-### (Without Docker)
+### Without docker
 
 
  1. Install virtual environment module
@@ -80,7 +79,7 @@ You can find the container image [here](https://hub.docker.com/repository/docker
       streamlit run app.py
   ```
 
-### Using Docker
+### Using docker
 
  1. Pull the Docker image
 ```shell
@@ -145,6 +144,8 @@ Honoring the original creator(s) and ideator(s) of this project.
 
 <!-- UPDATE -->
 - [Palkit Lohia](https://github.com/spookbite)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Additional documentation
 
