@@ -13,14 +13,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<!-- UPDATE -->
 <div align="center">
   <a href="https://github.com/metakgp/kronos">
      <img width="600" alt="image" src="https://github.com/metakgp/kronos/assets/86282911/816ed4e0-2c31-4f66-96b7-08d4dfcf40b6">
   </a>
 
   <p align="center">
-  <!-- UPDATE -->
     <i>Previous year course wise grade statistics</i>
     <br />
     <a href="https://kronos.metakgp.org">Website</a>
@@ -70,6 +68,9 @@ To set up a local instance of the application, follow the steps below.
     docker run -p 8501:8501 metakgporg/kronos
    ```
 
+> [!Note]
+> You can change the `{PORT}:8501` to your desired PORT.
+
 ### Without docker
 
 1. Configure the virtual environment
@@ -88,9 +89,6 @@ To set up a local instance of the application, follow the steps below.
    ```shell
    streamlit run app.py
    ```
-
-> [!Note]
-> You can change the `{PORT}:8501` to your desired PORT.
 
 ## Contact
 
