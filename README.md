@@ -10,20 +10,25 @@
 [![Wiki][wiki-shield]][wiki-url]
 
 </div>
+
 <!-- PROJECT LOGO -->
 <br />
+<!-- UPDATE -->
 <div align="center">
   <a href="https://github.com/metakgp/kronos">
-           <img width="140" alt="image" src="https://raw.githubusercontent.com/metakgp/design/main/logos/logo.jpg">
-  </a> 
-<h1 align="center">Kronos</h1>
-  <i>Previous year course wise grade statistics</i>
-  <br />
-    <a href="https://github.com/metakgp/kronos/issues">Report Bug</a>
+     <img width="600" alt="image" src="https://github.com/metakgp/kronos/assets/86282911/816ed4e0-2c31-4f66-96b7-08d4dfcf40b6">
+  </a>
+
+  <p align="center">
+  <!-- UPDATE -->
+    <i>Previous year course wise grade statistics</i>
+    <br />
+    <a href="https://kronos.metakgp.org">Website</a>
     ·
-    <a href="https://github.com/metakgp/kronos/issues">Request Feature</a>
+    <a href="https://github.com/proffapt/kronos/issues">Request Feature / Report Bug</a>
   </p>
 </div>
+
 <!-- TABLE OF CONTENTS -->
 <details>
 <summary>Table of Contents</summary>
@@ -43,7 +48,9 @@
 
 ## About The Project
 
-This webapp displays previous year's grade distribution. It has been hosted with streamlit as an app but is still under development.
+<img width="1483" alt="image" src="https://github.com/metakgp/kronos/assets/86282911/239ba018-065d-4885-af1c-eaaeef94786a">
+
+This webapp displays previous year's grade distribution for the selected course. It has been hosted with streamlit as an app but is still under development.
 
 You can find the container image [here on dockerhub](https://hub.docker.com/r/metakgporg/kronos).
 
