@@ -13,14 +13,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/metakgp/gyft">
+  <!-- <a href="https://github.com/metakgp/kronos2.0">
   </a> -->
 
   <h1 align="center">kronos2.0</h1>
   <br />
-    <a href="https://github.com/metakgp/gyft/issues">Report Bug</a>
+  <i>Previous years' grade distributions</i>
+  <br />
+    <a href="https://github.com/metakgp/kronos2.0/issues">Report Bug</a>
     ·
-    <a href="https://github.com/metakgp/gyft/issues">Request Feature</a>
+    <a href="https://github.com/metakgp/kronos2.0/issues">Request Feature</a>
   </p>
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -48,49 +50,49 @@ You can find the container image [here](https://hub.docker.com/repository/docker
 
 # Getting started
 
-## (Without Docker)
+### (Without Docker)
 
 
-### 1. Install virtual environment module
+ 1. Install virtual environment module
 ```shell
     pip install virtualenv
 ```
 
-### 2. Create a virtual environment (say env) 
+ 2. Create a virtual environment (say env) 
 ```shell
     python -m venv env
 ```
 
-### 3. Activate the virtual environment 
+ 3. Activate the virtual environment 
   ```shell
       source env/bin/activate
   ```
 
-### 4. Install Dependencies 
+ 4. Install Dependencies 
   ```shell
       pip install -r requirements.txt
   ```
 
-### 5. Run the following code on your terminal:
+ 5. Run the following code on your terminal:
   ```shell
       streamlit run app.py
   ```
 
-## Using Docker
+### Using Docker
 
-### 1. Pull the Docker image
+ 1. Pull the Docker image
 ```shell
     docker pull spookbite/kronosv2:latest
 ```
 
-### 2. Run the container
+2. Run the container
 ```shell
     docker run -p 8501:8501 spookbite/kronosv2
 ```
 
 You can change the {PORT}:8501 to your desired PORT.
 
-# Usage
+## Usage
 <!-- UPDATE -->
 Following is an example how this project works with streamlit.
 
@@ -106,27 +108,7 @@ Following is an example how this project works with streamlit.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-# Maintainer(s)
-
-- [Arpit Bhardwaj](https://github.com/proffapt)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/metakgp/kronos2.0.svg?style=for-the-badge
-[contributors-url]: https://github.com/metakgp/kronos2.0/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/metakgp/kronos2.0.svg?style=for-the-badge
-[forks-url]: https://github.com/metakgp/kronos2.0/network/members
-[stars-shield]: https://img.shields.io/github/stars/metakgp/gyft.svg?style=for-the-badge
-[stars-url]: https://github.com/metakgp/kronos2.0/stargazers
-[issues-shield]: https://img.shields.io/github/issues/metakgp/gyft.svg?style=for-the-badge
-[issues-url]: https://github.com/metakgp/kronos2.0/issues
-[license-shield]: https://img.shields.io/github/license/metakgp/gyft.svg?style=for-the-badge
-[license-url]: https://github.com/metakgp/kronos2.0/blob/main/LICENSE
-[wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&style=for-the-badge
-[wiki-url]: https://wiki.metakgp.org
-
-# Contact
+## Contact
 
 <p>
 📫 Metakgp -
@@ -150,6 +132,45 @@ Following is an example how this project works with streamlit.
 </a>
 </p>
 
-# Credits
 
-This project is inspired by [metakgp/kronos](https://github.com/metakgp/kronos).
+### Maintainer(s)
+The currently active maintainer(s) of this project.
+- [Arpit Bhardwaj](https://github.com/proffapt)
+
+### Creator(s)
+
+Honoring the original creator(s) and ideator(s) of this project.
+
+<!-- UPDATE -->
+- [Palkit Lohia](https://github.com/spookbite)
+
+## Additional documentation
+
+  - [License](/LICENSE)
+  - [Code of Conduct](/.github/CODE_OF_CONDUCT.md)
+  - [Security Policy](/.github/SECURITY.md)
+  - [Contribution Guidelines](/.github/CONTRIBUTING.md)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/metakgp/kronos2.0.svg?style=for-the-badge
+[contributors-url]: https://github.com/metakgp/kronos2.0/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/metakgp/kronos2.0.svg?style=for-the-badge
+[forks-url]: https://github.com/metakgp/kronos2.0/network/members
+[stars-shield]: https://img.shields.io/github/stars/metakgp/kronos2.0.svg?style=for-the-badge
+[stars-url]: https://github.com/metakgp/kronos2.0/stargazers
+[issues-shield]: https://img.shields.io/github/issues/metakgp/kronos2.0.svg?style=for-the-badge
+[issues-url]: https://github.com/metakgp/kronos2.0/issues
+[license-shield]: https://img.shields.io/github/license/metakgp/kronos2.0.svg?style=for-the-badge
+[license-url]: https://github.com/metakgp/kronos2.0/blob/main/LICENSE
+[wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&style=for-the-badge
+[wiki-url]: https://wiki.metakgp.org
+
