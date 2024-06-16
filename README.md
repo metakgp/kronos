@@ -15,13 +15,8 @@
 <div align="center">
   <a href="https://github.com/metakgp/kronos">
            <img width="140" alt="image" src="https://raw.githubusercontent.com/metakgp/design/main/logos/logo.jpg">
-  </a> -->
-
-<<<<<<< HEAD
-  <h1 align="center">kronos</h1>
-=======
-  <h1 align="center">kronos2.0</h1>
->>>>>>> 6c7a11b70aa6cb7d2529f4333a31764aaffb0564
+  </a> 
+<h1 align="center">kronos</h1>
   <i>Previous years' grade distributions</i>
   <br />
     <a href="https://github.com/metakgp/kronos/issues">Report Bug</a>
