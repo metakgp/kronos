@@ -17,7 +17,6 @@
   </a> -->
 
   <h1 align="center">kronos2.0</h1>
-  <br />
   <i>Previous years' grade distributions</i>
   <br />
     <a href="https://github.com/metakgp/kronos2.0/issues">Report Bug</a>
@@ -34,7 +33,10 @@
   - [Without Docker](#without-docker)
   - [using docker](#using-docker)
 - [Usage](#usage)
-- [Maintainer(s)](#maintainers)
+- [Contact](#contact)
+  - [Maintainer(s)](#maintainers)
+  - [Creator(s)](#creators)
+- [Additional documentation](#additional-documentation)
 
 </details>
 
@@ -153,10 +155,6 @@ Honoring the original creator(s) and ideator(s) of this project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
