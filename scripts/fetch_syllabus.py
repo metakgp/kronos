@@ -12,7 +12,7 @@ HEADERS = {
     'Cookie': "HAHAHAHAHA You thought I'd give you my session ID"
 }
 
-SYLLABUS_PATH = "./SYLLABUS"
+SYLLABUS_PATH = "./syllabus"
 os.makedirs(SYLLABUS_PATH, exist_ok=True)
 
 
@@ -58,6 +58,6 @@ def get_syllabus_retry(subject_code):
 
 
 if __name__ == "__main__":
-    subject_codes = get_subject_codes(r"final_data\final_grades.csv")
+    subject_codes = get_subject_codes(r"./data/final_grades.csv")
     Parallel(n_jobs=8)(delayed(get_syllabus_retry)(code)
                        for code in tqdm(subject_codes))
