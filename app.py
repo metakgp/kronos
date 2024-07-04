@@ -72,8 +72,6 @@ df_num = df_new.copy()
 df_num.drop(['course'], axis = 1, inplace=True)
 
 
-#number_of_students = st.checkbox("Show Graph w.r.t the Number of Students")
-#if number_of_students:
 st.markdown("<h2 style='text-align: center;'><b>Plot w.r.t the Number of Students</b></h2>", unsafe_allow_html=True)
 st.write("")
 st.write("")
@@ -100,9 +98,6 @@ st.plotly_chart(fig)
 
 
 number_of_students = st.checkbox("Show data w.r.t number of students")
-# if number_of_students:
-#     st.write("")
-#     st.write(xyz)
 
 col1, col2, col3 = st.columns(3)
 
@@ -117,17 +112,11 @@ with col2:
 with col3:
     st.write("")
 
-#xyz.reset_index(inplace=True)
-#xyz.rename(columns = {'index':'grades'}, inplace = True)
-#xyz = xyz.melt('grades', var_name='academic_session',  value_name='# of students')
-#sns.factorplot(data=xyz, x="grades", y="# of students", hue="academic_session")
-#st.pyplot()
 
 st.write("")
 st.write("")
 
-#pct_of_students = st.checkbox("Show Graph w.r.t the Percentage of Students")
-#if pct_of_students:
+
 st.markdown("<h2 style='text-align: center;'><b>Plot w.r.t the Percentage of Students</b></h2>", unsafe_allow_html=True)
 st.write("")
 st.write("")
@@ -170,12 +159,7 @@ with col2:
 with col3:
     st.write("")
 
-#abc.reset_index(inplace=True)
-#abc.rename(columns = {'index':'grades'}, inplace = True)
-#abc = abc.melt('grades', var_name='academic_session',  value_name='% of students')
 
-#sns.factorplot(data=abc, x="grades", y="% of students", hue="academic_session")
-#st.pyplot()
 
 st.write("")
 st.write("")
@@ -207,4 +191,3 @@ text-align: center;
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
-#st.markdown("<h4 style='text-align: center;'><b><i>Contribute to this project on <a href = 'http://github.com/metakgp/kronos'>Github</a></i></b></h4>", unsafe_allow_html=True)
