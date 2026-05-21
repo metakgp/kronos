@@ -21,7 +21,7 @@
   <p align="center">
     <i>Previous year course wise grade statistics</i>
     <br />
-    <a href="https://kronos.metakgp.org">Website</a>
+    <a href="https://kronos.streamlit.app/">Website</a>
     ·
     <a href="https://github.com/proffapt/kronos/issues">Request Feature / Report Bug</a>
   </p>
